@@ -11,6 +11,32 @@ public class PentagonCrazy {
 	
 	public static void main(String[] args) {
 		
+		Robot Varun = new Robot();
+		
+		Varun.penDown();
+		
+		Varun.setSpeed(20);
+		
+		Varun.setPenColor(255,0,0);
+		
+		Varun.setSpeed(400);
+		
+		int PentagonCrazy = 100;
+				
+		int angle=72;
+		
+		int repeat=0;
+		
+		while (repeat<200) {
+			Varun.move(PentagonCrazy);
+			
+			Varun.turn(angle-1);
+			
+			repeat+=1;
+		}
+		
+		Varun.penUp();
+		
 		//  Create a new Robot
 
 		//  Put the robot's pen down

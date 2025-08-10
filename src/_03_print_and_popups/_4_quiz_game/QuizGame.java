@@ -3,6 +3,7 @@ package _03_print_and_popups._4_quiz_game;
 public class QuizGame {
 	public static void main(String[] args) {
 		
+		
 		// Create a variable to hold the user's score. Set it equal to zero. 
 		
 		// ASK A QUESTION AND CHECK THE ANSWER
